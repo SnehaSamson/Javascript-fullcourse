@@ -1,1 +1,55 @@
 What is Javascript?
+ Javscript is a light weight object-oriented programming language which is used by several websites for scripting the webpages.
+
+
+ Variables in Javascript : 
+ - Variables are the containers which stores the data.
+ - We can store array, object, string, numbers.
+ - This is Javascript can change a variable type in runtime.
+ -This is called dynamically typed language.
+ - Means you can change through run time the type of the variable.
+ - Static type means need to declare which type of variable it is after that only you can perform any operation.
+ - But in Javascript you can change the type of the vraibale in runtime also and you can also perform the required operations.
+
+ Rules for choosing Variables :
+ - letters, digits, underscore and $ sign are allowed.
+ - Must begin with a $, _ or a letter.
+ - Javacsript reserved words cannot be used a svariable name.
+ - Javacsript variable names are case sensitive like sneha and Sneha both are different variable names.
+
+
+ Difference between let, var and const :
+
+ var : var is globally scoped while let and const are block scoped.
+       var can be updated and re-declared within its scope.
+       let can be updated but not re-declared.
+       const can neither be updated nor be re-declared.
+
+Primitive Datatypes and Objects : 
+ - There are 7 primitive Datatypes
+ - These are fundamental data types 
+
+ Data type : means what data to be stored in a variable.
+ Objects are non-primitive Datatypes.
+ N - null
+ N - numbers
+ S - String
+ S - Symbol
+ B - Boolean
+ B - BigInt
+ U - undefined
+
+If object is declared as const then you can add the key items to the object. Because by declaring a constant object it will be considered as a refernce variable.
+- You can add the new key items to the object but you cannot add te new value to it like numbers or string.
+
+Expressions and Conditionals : 
+- A fragment of code that produces a value is called an expression.
+- Every value written literally is an expression.
+- ex : 77 or "Sneha".
+
+Conditional Statements : 
+Sometimes we might have to execute a block of code based on some Conditions.
+- In javascript we have three forms of if else Statements
+1. if Statement
+2. if... else Statement
+3. if... else... if ... else Statement.
