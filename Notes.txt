@@ -53,3 +53,46 @@ Sometimes we might have to execute a block of code based on some Conditions.
 1. if Statement
 2. if... else Statement
 3. if... else... if ... else Statement.
+
+
+Loops in Javascript : 
+- Loops are used when you want to perform repeated action.
+- if you are assigned a task of printing numbers 1 to 100 then you can use loops to reduce your work.
+
+Types of Loops in Javacsript:
+- for loop -> Loop a block of code no of times.
+- for in loop -> loops through the key of an object.
+- for of loop -> loops through the values of an object.
+- while loop -> loops a block of code based on a speific condition.
+- do while loop -> while loop variant which runs atleast once.
+
+
+Functions : It is a block of code where we can use them again so that we can reduce the line of code.
+
+
+Strings : It is a collection of characters and it is written within a double quote.
+
+// Note : We can insert variable directly in template literal. This is called as String Interpolition. 
+
+Other Escape characters are as follows : 
+\n -> NewLine.
+\t -> Tab
+\r -> Carriage Return
+
+Methods in String :
+1. Slice : It will slice the text it will take the arguments if 2 arguments are given first argumwnt will give the 
+          index of the first letter and the second argument will be the index-1.
+
+important Note : Strings are immutable In order to access the characters at an index we can use the following syntax 
+let name = "Sneha";
+console.log(name[0]) -> Prints S
+console.log(name[1]) -> Prints n 
+
+Arrays : Arrays are variable which can hold more than one value.
+         With the help of index number we can access the values in the array.
+         Arrays are mutable which can be changed at runtime
+
+
+Splice() : It can be used add new items to an array.
+
+slice() : Slice out a piece from an array. It creates a new array.
