@@ -151,3 +151,37 @@ Every browser has some developer tools which makes a developer's life a lot easi
     1. text nodes
     2. element nodes
     3. comment nodes.
+
+
+Children of an element :
+ - Direct as well as deeply nested elements of an element are called its children.
+ - Child nodes -> Elements that are direct children for example head and body are children of html.
+
+ firstchild, lastchild and childNodes
+ - element.firstChild -> first child element.
+ - element.lastChild -> last child element.
+ - element.childNodes -> all child nodes.
+
+ Note : element.childNodes[0] = element.firstChild
+ element.childNodes[element.childNodes.length - 1] = element.lastChild
+
+ There is also a method element.hasChildNodes() to check whether there are any child nodes.
+
+ Note : childNodes looks like an array but it is not an array but a collection. we can use Array from(collection) to convert it into array.
+
+Notes on DOM collections : 
+ - They are read-only.
+ - They are live element.childNodes variable(reference) will automatically update if childNodes of element is changed.
+ - They are iterable using for of loop.
+
+ Siblings and the parent :
+ Siblings are nodes that are children of the same parent.
+
+
+ text node and element node 
+ firstChild -> it will refer to text node.
+ firstElemetChild -> It will refer to the element node that is html element.
+
+ previousSibling -> refer to text node
+ previousElementSibling -> element node.
+
