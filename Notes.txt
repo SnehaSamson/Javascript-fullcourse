@@ -96,3 +96,58 @@ Arrays : Arrays are variable which can hold more than one value.
 Splice() : It can be used add new items to an array.
 
 slice() : Slice out a piece from an array. It creates a new array.
+
+
+Javascript in the browser : Javascript was initially created to make web pages alive. Js can be written right in a web page's HTML to make it interactive.
+- The browser has an embeded engine called javascript engine or the javascript runtime.
+- Javscript's ability in the browser is very limited to protect the user's safety for example a webpage on google.com access codeswaer.com and steal information from there.
+
+Developer Tools : 
+Every browser has some developer tools which makes a developer's life a lot easier.
+
+
+ // Advantages of using script Tag
+    // 1. Seperation of concerns.
+    // 2. Browser caching.
+
+
+    Console Objects :
+    There are many console.objects like :
+    1. console.error 
+    2. console.alert
+    3. console.warn
+    4. console.time
+    5. console.timeEnd
+    6. console.table
+
+    There are many objects you can check by using console.log(console);
+    It will show you all the console objects
+
+    User Interactions : alert, prompt, confirm
+    You can use them for simplicity but there are some disadvantages like :
+    1. It pauses the execution of the script for the user to interact.
+       Javascript execution will be paused untill the window is not dismissed.
+
+    2. You will not know the exact location of the modal because browser will decide the direction most of the time modal will come on the top.
+    3. And if you want to add some modern looks you cannot do that these are the limitations.
+
+
+    BOM and DOM : 
+    window :It is a global object we can write in this way also window.console.log(windows) -> to check the window object.
+    DOM :Document object model -> That means your whole HTML page becomes an object called document.
+
+    BOM : Browser Object Model -> Browser Object model represents additional objects provided by the browser..
+          The functions alert, confirm, prompt are also a part of BOM.
+
+          for example when you write the following code like
+          location.href = "https://google.com"
+          It will redirect to the google page 
+
+
+ Walking The DOM :
+
+  DOM tree refers to the HTML page where all the nodes are objects.
+  - There can be 3 main types of nodes in the DOM tree :
+    1. text nodes
+    2. element nodes
+    3. comment nodes.
