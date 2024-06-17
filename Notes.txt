@@ -185,3 +185,21 @@ Notes on DOM collections :
  previousSibling -> refer to text node
  previousElementSibling -> element node.
 
+
+
+Searching the DOM :
+
+DOM navigation properties are helpful where the elements are close to each other. If they are not close to each other, we have some more methods to search the DOM.
+
+1. document.getElementById : This method is used to get the element with a given "id" attribute.
+2. document.getElementsByClassName : This method is used to get the elements with a given "class" attribute.
+                                    This will return all the elements whose calss is same.
+3. document.getElementByTagName : This method is used to get the element with a given tag name.
+
+
+Matches,Closet and Contains : 
+
+1. elem.matches(css) -> To check if element matches the given css selector.
+2. elem.closet(css) -> To look for the nearest ancestor that matches the given css selector. The elemet itself is also checked.
+3. elemA.contains(elemB) -> Returns true if the elemB is inside elemA(a descendant of elemA) or when elemA==elemB.
+
